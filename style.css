@@ -9,7 +9,15 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  font-family: "Montserrat", sans-serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.title {
+  position: absolute;
+  color: white;
+  top: 5%;
+  text-align: center;
+  padding: 5px;
 }
 
 .time-select,
@@ -25,7 +33,7 @@
 .time-select button,
 .sound-picker button {
   color: white;
-  width: 50%;
+  width: 60%;
   height: 10%;
   background: none;
   font-size: 20px;
@@ -37,8 +45,8 @@
 
 .sound-picker button {
   border: none;
-  height: 120px;
-  width: 120px;
+  height: 100px;
+  width: 100px;
   padding: 30px;
   border-radius: 50%;
 }
@@ -59,30 +67,39 @@
 
 .player-container {
   position: relative;
-  height: 80%;
+  height: 50%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
   flex: 1;
+  bottom: 7%;
 }
 
 .player-container svg {
   position: absolute;
-  height: 50%;
-  top: 50%;
+  height: 30%;
+  top: 97%;
   left: 50%;
   transform: translate(-50%, -50%) rotate(-90deg);
   pointer-events: none;
 }
+
 .player-container svg circle {
   transition: all 0.2s ease-in-out;
 }
+
+.player-container img.play,
+img.replay {
+  width: 30px;
+  height: auto;
+}
+
 .time-display {
   color: white;
   position: absolute;
-  font-size: 50px;
-  bottom: 10%;
+  font-size: 30px;
+  bottom: 0;
 }
 
 video {
@@ -90,4 +107,5 @@ video {
   top: 0%;
   left: 0%;
   z-index: -10;
+  height: 100vh;
 }
