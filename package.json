@@ -1,0 +1,12 @@
+{
+  "name": "meditation-app",
+  "version": "1.0.0",
+  "description": "app",
+  "main": "index.js",
+  "repository": "https://github.com/BogdanDevBst/meditation-app.git",
+  "author": "BogdanDevBst <bn.workdev@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "firebase-tools": "^8.4.0"
+  }
+}
