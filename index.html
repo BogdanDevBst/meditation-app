@@ -20,7 +20,7 @@
       </section>
       <div class="vid-container">
         <video loop>
-          <source src="./video/rain.mp4" type="video/mp4" />
+          <source src="./src/video/rain.mp4" type="video/mp4" />
         </video>
       </div>
       <div class="time-select">
@@ -30,9 +30,9 @@
       </div>
       <div class="player-container">
         <audio class="song">
-          <source src="./sounds/rain.mp3" />
+          <source src="./src/sounds/rain.mp3" />
         </audio>
-        <img src="./svg/play.svg" class="play" />
+        <img src="./src/svg/play.svg" class="play" />
         <svg
           class="track-outline"
           width="453"
@@ -65,15 +65,21 @@
             stroke-width="20"
           />
         </svg>
-        <img src="./svg/replay.svg" class="replay" />
+        <img src="./src/svg/replay.svg" class="replay" />
         <h3 class="time-display">0:00</h3>
       </div>
       <div class="sound-picker">
-        <button data-sound="./sounds/rain.mp3" data-video="./video/rain.mp4">
-          <img src="./svg/rain.svg" alt="" />
+        <button
+          data-sound="./src/sounds/rain.mp3"
+          data-video="./src/video/rain.mp4"
+        >
+          <img src="./src/svg/rain.svg" alt="rain" />
         </button>
-        <button data-sound="./sounds/beach.mp3" data-video="./video/beach.mp4">
-          <img src="./svg/beach.svg" alt="" />
+        <button
+          data-sound="./src/sounds/beach.mp3"
+          data-video="./src/video/beach.mp4"
+        >
+          <img src="./src/svg/beach.svg" alt="beach" />
         </button>
       </div>
     </div>
